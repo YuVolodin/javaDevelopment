@@ -5,7 +5,7 @@ class Study {
     private String course;
 
 
-    //TODO
+
     public Study(String course) {
         this.course = course;
     }
@@ -16,7 +16,7 @@ class Study {
 
 class JavaProgram {
     public static void main(String[] args) {
-        //TODO
+
         Study Task = new Study("Изучение Java - это просто!");
         System.out.println(Task.printCourse());
     }
