@@ -20,7 +20,7 @@ public class Lab05 {
     }
     public static void isPolyndrome(String input){
         String check = reverseWord(input);
-        if (check.equals(input)){
+        if (check.equalsIgnoreCase(input)){
             System.out.println("Слово " + input + " является палиндромом");
         }
         else {
