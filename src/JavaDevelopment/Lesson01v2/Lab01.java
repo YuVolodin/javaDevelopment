@@ -1,4 +1,4 @@
-package JavaDevelopment.Lesson01;
+package JavaDevelopment.Lesson01v2;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class Lab01 {
         System.out.println("Task03");
 
         var number = 10500;
-        var result = (number/10)/10;
+        double result = (number/10)/10;
         System.out.println(result);
 
         //Task04

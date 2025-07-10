@@ -1,4 +1,4 @@
-package JavaDevelopment.Lesson03;
+package JavaDevelopment.Lesson03v2;
 
 class Study {
 
