@@ -31,10 +31,11 @@ public class Lab05 {
     }
     public static void censored (String input){
         StringBuilder modified = new StringBuilder(input);
-        input = input.replaceAll(" бяка ", " Вырезано цензурой ");
-        input = input.replaceAll(" бяка"," Вырезано цензурой");
-        input = input.replaceAll("бяка ","Вырезано цензурой ");
-        input = input.replaceAll("бяка","Вырезано цензурой");
+        String censor = "Вырезано цензурой";
+        input = input.replaceAll(" бяка ", censor);
+        input = input.replaceAll(" бяка",censor);
+        input = input.replaceAll("бяка ",censor);
+        input = input.replaceAll("бяка",censor);
         System.out.println(input);
     }
     public static void checkEquality(String firstInput, String secondInput){
