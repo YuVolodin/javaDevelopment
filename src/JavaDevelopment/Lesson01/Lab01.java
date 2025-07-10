@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Lab01 {
     public static void main(String[] args) {
-        //Task01
+        //Task 01
         System.out.println("Task01");
         System.out.println("Я");
         System.out.println("хорошо");

@@ -42,11 +42,11 @@ public class Calculator {
     public static double Divide (double first, double second) {
         return first / second;
     }
-    public static int Divide (int first, int second) {
-        return first / second;
+    public static double Divide (int first, int second) {
+        return (double) first / second;
     }
-    public static long Divide (long first, long second) {
-        return first / second;
+    public static double Divide (long first, long second) {
+        return (double) first / second;
     }
 
 }
